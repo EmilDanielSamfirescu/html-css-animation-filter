@@ -1,0 +1,166 @@
+/* PRIMO */
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-1-square:hover {
+    background-color: red;
+    transition: background-color 1s;
+}
+
+/* SECONDO */
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-2-square:active {
+    width: 1000px;
+    background-color: blueviolet;
+    transition: width 5s, background-color 3s;
+    transition-timing-function: ease-in-out;
+}
+
+/* TERZO */
+
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+    background-color: yellow;
+    transition: border-radius 3s, background-color 5s;
+}
+
+/* QUARTO */
+
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-4-square:hover {
+    width: 0;
+    height: 0;
+    background-color: black;
+    transition: width 5s, height 5s, background-color 3s;
+}
+
+
+
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+}
+
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 10px gray;
+    transition: all 3s;
+}
+
+.ex-5-square:active {
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+    transition: all 3s;
+}
+
+/* SESTO */
+
+img.ex-6-img {
+    width: 500px;
+}
+
+img.ex-6-img:hover {
+    filter: grayscale(1); 
+    transition: filter 3s;
+}
+/* SETTIMO */
+
+img.ex-7-img {
+    width: 500px;
+}
+
+img.ex-7-img:hover {
+    filter: invert(0.9) hue-rotate(90deg);
+    transition: all 3s;
+}
+
+/* OTTAVO */
+
+.ex-8-img {
+    width: 500px;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(90deg) brightness(0.50);
+    border-radius: 50px;
+    transition: border-radius 3s, filter 5s;
+}
+
+/* NONO */
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+}
+
+.ex-9-img:hover {
+    width: 600px;
+    filter: hue-rotate(90deg) brightness(0.50);
+    border-radius: 50px;
+    transition: border-radius 3s, filter 8s, width 5s;
+}
+
+/* DECIMO */
+
+.ex-10-icon {
+    font-size: 60px;
+    animation: esempio 3s infinite;
+}
+
+
+@keyframes esempio {
+    /* 0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    } */
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+
+
+
+
+
+
+/* UNDICESIMO*/
+
+.ex-11-icon {
+    font-size: 60px;
+}
+/* DODICESIMO */
+/* TREDICESIMO */
