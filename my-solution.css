@@ -129,11 +129,14 @@ img.ex-7-img:hover {
 
 .ex-10-icon {
     font-size: 60px;
-    animation: esempio 3s infinite;
+    animation-name: giro-infinito;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 
-@keyframes esempio {
+@keyframes giro-infinito {
     /* 0% {
         transform: rotate(0deg);
     }
@@ -153,14 +156,24 @@ img.ex-7-img:hover {
 }
 
 
-
-
-
-
 /* UNDICESIMO*/
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation-name: giro-75;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes giro-75 {
+    75% {
+        transform: rotate(270deg);
+    } 
+}
+
 /* DODICESIMO */
 /* TREDICESIMO */
